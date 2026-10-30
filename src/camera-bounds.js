@@ -1,8 +1,8 @@
 // Keep the camera's near plane clear of the room's walls, carpet and coffers.
 export const INTERIOR_BOUNDS = Object.freeze({
-  minX: -10.7, maxX: 10.7,
-  minY: 0.8, maxY: 6.15,
-  minZ: -21.15, maxZ: 21.15,
+  minX: -20.45, maxX: 20.45,
+  minY: 0.8, maxY: 5.15,
+  minZ: -17.15, maxZ: 17.15,
 });
 
 export function confineInteriorCamera(position, target) {

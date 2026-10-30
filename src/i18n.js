@@ -1,7 +1,13 @@
 export const BM = {
+ 'Marriott capacity':'Kapasiti Marriott',
+ 'The Majestic Ballroom':'The Majestic Ballroom',
+ 'A setting for timeless celebrations.':'Suasana untuk meraikan kenangan abadi.',
+ 'ROOM DIMENSIONS':'UKURAN DEWAN',
+ 'Interactive 3D view of the Majestic Ballroom':'Pandangan 3D interaktif Majestic Ballroom',
+ 'Official Majestic Ballroom photograph':'Foto rasmi Majestic Ballroom',
+ 'Room dimensions: 35.9 × 42.5 × 6 m. Area: 1,525.75 m². Marriott capacity chart: 1,250 banquet, 1,500 theatre, 1,150 classroom. Architecture follows official photographs; stage, doors, lighting and furniture positions are approximate. The overhead view is an illustrative layout, not an official floor plan.':'Ukuran dewan: 35.9 × 42.5 × 6 m. Keluasan: 1,525.75 m². Carta kapasiti Marriott: 1,250 jamuan, 1,500 teater, 1,150 bilik darjah. Seni bina merujuk foto rasmi; kedudukan pentas, pintu, lampu dan perabot ialah anggaran. Pandangan atas ialah ilustrasi susun atur, bukan pelan lantai rasmi.',
+
  'VENUE EXPLORER':'PENEROKA RUANG ACARA','LEVEL 2':'ARAS 2',
- 'Hall 1 Dewan Tun Hussein Onn':'Dewan 1 Tun Hussein Onn',
- 'A WORLD OF OPPORTUNITY':'A WORLD OF OPPORTUNITY','RIGHT TIME, RIGHT NOW.':'RIGHT TIME, RIGHT NOW.',
  'Venue reference':'Rujukan dewan','MAKE IT YOUR OCCASION':'CIPTA ACARA PILIHAN ANDA','Explore the setting':'Terokai susun atur',
  'Conference':'Persidangan','Ideas take centre stage':'Ruang untuk perkongsian idea',
  'Theatre':'Teater','A shared perspective':'Pengalaman bersama',
@@ -27,20 +33,17 @@ export const BM = {
  'FLOOR AREA':'KELUASAN LANTAI','CEILING HEIGHT':'KETINGGIAN SILING','LED SCREENS':'SKRIN LED',
  'Drag to explore':'Seret untuk meneroka','Scroll to zoom':'Tatal untuk zum','INTERACTIVE 3D PREVIEW':'PRATONTON 3D INTERAKTIF',
  'Preparing your experience':'Menyediakan pengalaman anda','Close':'Tutup','THE REAL SPACE':'RUANG SEBENAR','Designed around the venue':'Direka berdasarkan dewan sebenar',
- 'Architecture and finishes referenced from WTC KL’s official venue gallery. Dimensions and branding from the supplied 2026 fact sheet. This is an illustrative reconstruction, not a surveyed digital twin.':'Seni bina dan kemasan dirujuk daripada galeri dewan rasmi WTC KL. Ukuran dan penjenamaan diambil daripada helaian fakta 2026 yang dibekalkan. Ini ialah pembinaan semula berbentuk ilustrasi, bukan replika digital berdasarkan ukuran tapak.',
  'Visit the official venue gallery':'Lawati galeri rasmi dewan',
- 'Interactive 3D view of Tun Hussein Onn ballroom':'Pandangan 3D interaktif Dewan Tun Hussein Onn',
- 'Official Tun Hussein Onn ballroom photograph':'Foto rasmi Dewan Tun Hussein Onn',
  'Fullscreen is unavailable in this browser.':'Skrin penuh tidak tersedia dalam pelayar ini.',
  'Your ballroom view has been saved.':'Pandangan dewan anda telah disimpan.',
  'A space for extraordinary':'Ruang untuk merealisasikan','possibilities.':'peluang luar biasa.',
 };
 const reverse=Object.fromEntries(Object.entries(BM).map(([en,bm])=>[bm,en]));
 let language='en';
-try{if(localStorage.getItem('wtckl-language')==='bm')language='bm'}catch{}
+try{if(localStorage.getItem('majestic-kl-language')==='bm')language='bm'}catch{}
 export const getLanguage=()=>language;
 export function t(text){const en=reverse[text]||text;return language==='bm'?(BM[en]||en):en}
-export function setLanguage(next){language=next==='bm'?'bm':'en';try{localStorage.setItem('wtckl-language',language)}catch{}}
+export function setLanguage(next){language=next==='bm'?'bm':'en';try{localStorage.setItem('majestic-kl-language',language)}catch{}}
 export function translatePage(root=document.body){
  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
  while((node=walker.nextNode())){

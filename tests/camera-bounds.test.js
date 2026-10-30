@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {confineInteriorCamera, INTERIOR_BOUNDS as b} from '../src/camera-bounds.js';
 
 test('interior viewpoints stay unchanged', () => {
-  const position = {x:-8.8,y:3.4,z:18.5}, target = {x:1,y:2.5,z:-8};
+  const position = {x:-12,y:3.1,z:14.8}, target = {x:1,y:2.5,z:-8};
   confineInteriorCamera(position,target);
-  assert.deepEqual(position,{x:-8.8,y:3.4,z:18.5});
+  assert.deepEqual(position,{x:-12,y:3.1,z:14.8});
   assert.deepEqual(target,{x:1,y:2.5,z:-8});
 });
 
