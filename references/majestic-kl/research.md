@@ -61,3 +61,7 @@ Google Images query inspected: https://www.google.com/search?tbm=isch&q=Majestic
 - Venue photo collection: https://theweddingnotebook.com/catalog/venues/the-majestic-hotel-kuala-lumpur
 
 Event decor, rented LEDs and furniture vary. The AV supplier explicitly identifies its 4.5 × 3.5 m screen as a rental; this is not the fixed ballroom LED wall's measurement. Google results also include other Majestic hotels and other spaces within this hotel; exclude those from architectural references.
+
+## Lighting, marble and carpet revision
+
+Additional inspected reference: https://images.meetingsbooker.com/images/venues/themajestichotelkualalumpur-0.png (retained as ballroom-banquet-lighting.png). Compared with the official theatre photograph. Both show square stepped crystal curtains, larger centre fixtures, smaller flanking fixtures, black marble wall piers with pale branching veins, crystal sconces, dark bronze ceiling recesses, and purple carpet with gold scrolls and magenta floral accents. Revised geometry/materials follow these visible features; precise fixture dimensions and spacing remain inferred. User-supplied Majestic Hotel logo is displayed unchanged on the white screen; its image proportions are preserved.
