@@ -114,7 +114,7 @@ for(const z of [-13,-6.5,0,6.5,13])for(const x of [-17,-8.5,0,8.5,17]){
 const crystalMesh=new THREE.InstancedMesh(prismGeometry,crystal,crystalMatrices.length);crystalMatrices.forEach((m,i)=>crystalMesh.setMatrixAt(i,m));ceiling.add(crystalMesh);
 const hemi=new THREE.HemisphereLight('#f5eddf','#655a60',.65);scene.add(hemi);
 const key=new THREE.DirectionalLight('#ffe8c6',1.2);key.position.set(-4,6,10);key.castShadow=true;key.shadow.mapSize.set(2048,2048);Object.assign(key.shadow.camera,{left:-23,right:23,top:20,bottom:-20,near:.5,far:60});key.shadow.bias=-.00025;key.shadow.normalBias=.04;scene.add(key);
-const suppliedLogo=new Image();suppliedLogo.src='/assets/majestic-screen-logo.png';
+const suppliedLogo=new Image();suppliedLogo.src='/assets/majestic-logo-transparent.png';
 function screenTexture(){
  const c=document.createElement('canvas');c.width=2428;c.height=500;const g=c.getContext('2d');g.fillStyle='#ffffff';g.fillRect(0,0,2428,500);
  if(suppliedLogo.complete&&suppliedLogo.naturalWidth){const h=380,w=h*suppliedLogo.naturalWidth/suppliedLogo.naturalHeight;g.drawImage(suppliedLogo,(2428-w)/2,60,w,h)}
