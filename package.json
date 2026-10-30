@@ -1,7 +1,7 @@
 {
-  "name": "wtc-kl",
+  "name": "venue-explorer-template",
   "version": "1.0.0",
-  "description": "Interactive Three.js venue explorer for Tun Hussein Onn ballroom, WTC Kuala Lumpur",
+  "description": "Reusable Three.js venue explorer starting point with a WTC KL demonstration",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",

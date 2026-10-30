@@ -1,0 +1,110 @@
+{
+  "baseline_commit": "dde3697",
+  "branch": "template/venue-explorer",
+  "files": {
+    "src/camera-bounds.js": {
+      "bytes": 550,
+      "sha256": "5f72f5481f54bff4f289b5a34a23e1f54dbbb7ba58dd9139866c0adb2998a9e7"
+    },
+    "src/i18n.js": {
+      "bytes": 5481,
+      "sha256": "4e7196560aa5d7919706309cc753990527fd0ba2bae141de1b46f144a990fb90"
+    },
+    "src/layout-settings.js": {
+      "bytes": 1629,
+      "sha256": "0998314be9bff2f7226b1742192aba196b2652a034bf5538e4ff21817ba6d8e9"
+    },
+    "src/main.js": {
+      "bytes": 20076,
+      "sha256": "d9df40d06bd4664d716230cf95eb154e8c9ddb89af5fcf3e81a299a4a5d54f16"
+    },
+    "src/style.css": {
+      "bytes": 14535,
+      "sha256": "5257b2f25f9d034f6a3c71b9a4b0c8b41ddb1ffefc0f9887158cb7f949cec9a1"
+    },
+    "tests/camera-bounds.test.js": {
+      "bytes": 1363,
+      "sha256": "8e8f83e8e70ec0bb9a3a3926ff89771464cc202a5cd9f00607b1c09c777603ec"
+    },
+    "tests/i18n.test.js": {
+      "bytes": 1046,
+      "sha256": "c3f85cacf3064ee493e7b604fba32baf77fe9286f1f6116bb46494c5995d2d6e"
+    },
+    "tests/layout-settings.test.js": {
+      "bytes": 1620,
+      "sha256": "6482b5b579fc23569fac92d895525ff3b1b1443adf26a04f5bfdad4f09ffc128"
+    },
+    "public/_headers": {
+      "bytes": 137,
+      "sha256": "3d7211f40a207f8182b3d7cdc351fbf7b7f74fa0a93e4f5b41aa30bd334204a4"
+    },
+    "public/assets/ballroom-reference.jpg": {
+      "bytes": 801961,
+      "sha256": "e2d047f92ab8cf0f272e710fd4db2dacb19d83793d2a3749b30357b927fb43f5"
+    },
+    "public/assets/wtc-logo.png": {
+      "bytes": 14254,
+      "sha256": "9063ebedb82203565b0503597be83b425ed07b8afc4bfc6c5ebe1e42bd880e93"
+    },
+    "references/wtckl/WTCKL_FactSheet_2026.pdf": {
+      "bytes": 38092038,
+      "sha256": "d3ce3a362659cf3b106ffe2619c7b3dc03e6de7050b19fa11be39a77ad5941e0"
+    },
+    "references/wtckl/annotated-led-floor-plan.png": {
+      "bytes": 94654,
+      "sha256": "2a45cfa72b74d907ac4a7f6b54f30c693726f2b92f8d74efa085a9af14502cdd"
+    },
+    "docs/qa/bahasa-melayu-preview.jpg": {
+      "bytes": 150528,
+      "sha256": "dd295fabfd52ad62457ef9bcc2c2bcde511445816e12e5411638a2e1d8f7120f"
+    },
+    "docs/qa/banquet-ten-chairs.jpg": {
+      "bytes": 144145,
+      "sha256": "6f6ba82c4fe30abafb24e491494c695d19396b3eec0b9ec9ff9540a5a465b2ec"
+    },
+    "docs/qa/confined-camera-preview.jpg": {
+      "bytes": 142690,
+      "sha256": "37f853f13f003d1a76e677c23c19a8c4f7c042974141304d6d0467332144431b"
+    },
+    "docs/qa/layout-controls-tagline.jpg": {
+      "bytes": 146739,
+      "sha256": "7cafcd6b085c37ef53058867d111ba1cce9ac764db338c59531db7e6434c313f"
+    },
+    "docs/qa/live-preview.jpg": {
+      "bytes": 149247,
+      "sha256": "7d987977aabd2fd62c15d6851803e366433dd6d248e32690a74fc91b60f74246"
+    },
+    "docs/qa/mobile-unobstructed.jpg": {
+      "bytes": 68979,
+      "sha256": "03ce839bc88e426eee9571f317d199d6e0046c108d0fd86365afb00e1d09b1b4"
+    },
+    "summary.md": {
+      "bytes": 26256,
+      "sha256": "c4fc13fe9ef7bde0ea590a3e360ff282b94e129532f229ff8d70af51e9242ac6"
+    },
+    "new-venue-brief.md": {
+      "bytes": 2945,
+      "sha256": "4cda621d11bccddf3e27f49fe81c3e0e0b452908aac22d0b7dd1e8d9a3fa0d61"
+    },
+    "README.md": {
+      "bytes": 4102,
+      "sha256": "75e5093cda1e46a4f6670cbb3b1827227bc4673a4103f1a8e7d1b0da49cf6abe"
+    },
+    "package.json": {
+      "bytes": 512,
+      "sha256": "48dee7dab12e8940b241d3f78d575c19bd21b02a5a8524ef4f94817571e20322"
+    },
+    "package-lock.json": {
+      "bytes": 25417,
+      "sha256": "975010a759b1dd919f960842c175c504afd2c805f0307af55d4a0193b0ac4fc2"
+    },
+    "wrangler.jsonc": {
+      "bytes": 116,
+      "sha256": "8d16d172b05a78046c09032c4cbd093911e3b1633ba53f909c5e0908324132c7"
+    },
+    "index.html": {
+      "bytes": 7777,
+      "sha256": "831931ed0ecea8bdf9b54cc090ff08ed58ed36aed11d6a917eda306be1498042"
+    }
+  }
+}

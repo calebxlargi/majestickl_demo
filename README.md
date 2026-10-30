@@ -1,4 +1,10 @@
-# WTC KL — Tun Hussein Onn Venue Explorer
+# Venue Explorer Template
+
+Start with [summary.md](summary.md) for the full handoff and [new-venue-brief.md](new-venue-brief.md) for a new company or location.
+
+This independent project retains the WTC KL room as a demonstration. It has **no Git remote or live deployment configured**. Replace the venue-specific identity, architecture, settings and references before using it for another company. The WTC deployment instructions below describe the original project only; use your new repository and Pages project for an adaptation.
+
+## Original demonstration: WTC KL — Tun Hussein Onn
 
 An interactive Three.js ballroom with conference, theatre, banquet and buffet arrangements. Includes orbit and zoom, four camera presets, atmosphere control, PNG export and fullscreen.
 
